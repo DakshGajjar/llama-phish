@@ -54,6 +54,11 @@ To run type
   <br>
   Chat Interface front-end
   <br>
+  <br>
+  <img width=700 height=222 src="https://github.com/DakshGajjar/llama-phish/assets/91525283/3a912f8c-a6e1-468a-84f9-9b099bd94580">
+  <br>
+  Captured data in CSV file
+  <br>
 </p>
 
 
