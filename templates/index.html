@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early Access to New LLM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div style="display: flex; position: relative; margin: 5px;">
+                <h1 style="margin-left: 5px; margin-right: 5px;">Early Access to {{name}}</h1>
+                <button style="margin-left: auto; border-radius: 5%;" onclick="trigger()">Learn More</button>
+            </div>
+        </header>
+        <main>
+            <div id="chat-container">
+                <div class="message bot-message">
+                    <p>Welcome to the early access of {{name}}! How can I assist you today?</p>
+                </div>
+            </div>
+        </main>
+        <footer style="height: 6%;">
+            <input type="text" id="user-input" name="user-input" placeholder="Message {{name}}...">
+            <button id="send-button" type="submit">Send</button>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        function trigger(){
+            window.location.href = "{{url_for('signup')}}"
+        }
+    </script>
+</body>
+</html>
