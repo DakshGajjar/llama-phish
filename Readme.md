@@ -19,12 +19,12 @@ It achieves this by:
 
 
 
-## Deployment
+## Installation
 
-To deploy this project run
+To install this repo run
 
 ```bash
-  pip -r install requirements.txt 
+  pip install -r requirements.txt 
 ```
 
 llama-api-token can be obtained  here - https://console.llama-api.com
