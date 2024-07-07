@@ -37,7 +37,7 @@ To run type
 
 
 
-## Authors
+## Author
 
 - [@DakshGajjar](https://www.github.com/DakshGajjar)
 
