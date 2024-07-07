@@ -1,12 +1,8 @@
 
-```    .........................................................................................
-    .##......##.......####...##...##...####...........#####...##..##..######...####...##..##.
-    .##......##......##..##..###.###..##..##..........##..##..##..##....##....##......##..##.
-    .##......##......######..##.#.##..######..######..#####...######....##.....####...######.
-    .##......##......##..##..##...##..##..##..........##......##..##....##........##..##..##.
-    .######..######..##..##..##...##..##..##..........##......##..##..######...####...##..##.
-    .........................................................................................
-```
+<p align="center">
+  <img src="https://github.com/DakshGajjar/llama-phish/assets/91525283/7e94b616-89a3-4c49-8c42-da1711885e98">
+</p>
+
 # Introduction
 
 A tool that replicates the behavior of a chat-based Large Language Model (LLM) like ChatGPT. This tool combines elements of both phishing and MITM attacks. It uses phishing-like tactics to deceive users into interacting with a fake ChatGPT interface, while also acting as a MITM to intercept and collect user data
@@ -46,12 +42,20 @@ To run type
 - [@DakshGajjar](https://www.github.com/DakshGajjar)
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p align="center">
+  <img width=700 height=300 src="https://github.com/DakshGajjar/llama-phish/assets/91525283/86ef6b68-7e9d-493e-a542-65c8dfe457a9">
+  <br>
+  Flask Server Backend
+  <br>
+  <br>
+  <img width=700 height=425 src="https://github.com/DakshGajjar/llama-phish/assets/91525283/9451b973-6bd8-482b-bde5-0632338e7008">
+  <br>
+  Chat Interface front-end
+  <br>
+</p>
+
 
 
 ## Acknowledgements
@@ -71,11 +75,3 @@ Contributions are always welcome!
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Roadmap
-
-- filter user prompts based on senstivity 
-
-- Add more integrations
-
